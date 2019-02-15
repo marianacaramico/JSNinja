@@ -14,6 +14,9 @@ var isTruthy = function(a){
 }
 
 // Invoque a função criada acima, passando todos os tipos de valores `falsy`.
+isTruthy(false)
+false
+
 isTruthy(undefined)
 false
 
