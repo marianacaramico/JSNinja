@@ -9,6 +9,10 @@ var isTruthy = function(a){
 	else return false;
 }
 
+var isTruthy = function(a){
+	return !!a;
+}
+
 // Invoque a função criada acima, passando todos os tipos de valores `falsy`.
 isTruthy(undefined)
 false
