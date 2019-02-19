@@ -45,7 +45,11 @@ Utilizando a estrutura de repetição `while`, mostre no console todos os númer
 pares entre 10 e 20, inclusive esses 2.
 */
 console.log( 'Números pares entre 10 e 20:' );
-// ?
+var x = 10;
+while(x<=20){
+  console.log(x % 2 === 0 ? x : "");
+  x++;
+}
 
 /*
 Na mesma ideia do exercício acima: mostre agora os números ímpares.
