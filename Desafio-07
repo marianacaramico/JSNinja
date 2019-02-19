@@ -8,8 +8,8 @@ Crie uma função chamada `addItem`, que irá adicionar itens no array criado.
 A função deverá retornar o array atualizado.
 */
 function addItem(item){
-	array.push(item);
-	return array;
+  array.push(item);
+  return array;
 }
 
 /*
@@ -69,7 +69,11 @@ Só vamos mudar o range:
 - No segundo "for", mostre os números ímpares entre 111 e 125, inclusive eles.
 */
 console.log( 'Números pares entre 100 e 120:' );
-// ?
+for(var a = 100; a <= 120; a++){
+  console.log(a % 2 === 0 ? a : "");
+}
 
 console.log( 'Números ímpares entre 111 e 125:' );
-// ?
+for(var b = 111; b <= 125; b++){
+  console.log(b % 2 === 1 ? b : "");
+}
