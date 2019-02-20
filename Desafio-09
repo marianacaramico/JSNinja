@@ -48,7 +48,8 @@ myFunction2();
 
 function myFunction2() {
     var number1 = 10;
-    var number2 = 20;var sum = function sum() {
+    var number2 = 20;
+    var sum = function sum() {
         return number1 + number2;
     };
     console.log( 'A soma de 10 e 20 é igual a', sum ? sum() : undefined );    
