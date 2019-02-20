@@ -6,16 +6,16 @@ Envolva todo o conteúdo desse arquivo em uma IIFE.
 
 /*
 Crie um objeto chamado `person`, com as propriedades:
-    `name`: String
-    `lastname`: String
-    `age`: Number
+  `name`: String
+  `lastname`: String
+  `age`: Number
 Preencha cada propriedade com os seus dados pessoais, respeitando o tipo
 de valor para cada propriedade.
 */
 var person = {
-	name: 'Mariana',
-	lastname: 'Caramico',
-	age: 20
+  name: 'Mariana',
+  lastname: 'Caramico',
+  age: 20
 };
 console.log( 'Propriedades de "person":' );
 
@@ -82,9 +82,9 @@ no formato abaixo:
     "[PROPRIEDADE]: [VALOR]"
 */
 for(var i = 0; i < Object.keys(books).length; i++){
-	for(var prop in books[i]){
-		console.log(prop+': '+books[i][prop]);
-	}
+  for(var prop in books[i]){
+    console.log(prop+': '+books[i][prop]);
+  }
 }
 
 /*
