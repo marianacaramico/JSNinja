@@ -1,12 +1,9 @@
+(function(){
+
 /*
 Crie uma IIFE que envolva todo o código desse arquivo. Faça também a
 indentação correta do código, para ficar dentro da IIFE.
 */
-(function(){
-
-//todo o código vem aqui dentro
-
-})();
 
 /*
 Analise as funções abaixo (`myFunction`, `myFunction2` e `myFunction3`, e
@@ -159,3 +156,5 @@ console.log(divi(function(a,b){ return a / b }));
 console.log( 'O resto da divisão é:' );
 console.log(modu(function(a,b){ return a % b }));
 2
+
+})();
