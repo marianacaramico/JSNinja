@@ -1,4 +1,4 @@
-(function(win, doc){
+(function(){
 
   'use strict';
   /*
@@ -50,4 +50,4 @@
   console.log('Elementos selecionados:', $a.get());
   console.log('$a é filho de body?', $a.get()[0].parentNode === document.body);
 
-})(window, document);
+})();
