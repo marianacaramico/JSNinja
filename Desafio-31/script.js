@@ -37,9 +37,12 @@
 
           var $btnDelete = document.createElement('button');
           $btnDelete.setAttribute('class', 'btn btn-danger');
-          $btnDelete.textContent = 'Deletar';
           $btnDelete.addEventListener('click', this.handleDeleteClick, false);
 
+          var $trashIcon = document.createElement('i');
+          $trashIcon.setAttribute('class', 'far fa-trash-alt');
+
+          $btnDelete.appendChild($trashIcon);
           $tdDelete.appendChild($btnDelete);
 
           $image.src = $('[data-js="url-imagem"]').get().value;
